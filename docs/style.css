@@ -61,6 +61,18 @@ h1{
 	align-items: center;
 	flex-direction: column;
 }
+@media (max-width: 400px) {
+	
+	.card-container {
+	  
+	  flex-direction: column;
+	}
+	.main-container{
+		height: fit-content;
+		width: auto;
+	}
+	
+  }
 
 .bottom-img{
 	position: absolute;
@@ -173,7 +185,7 @@ color: hsl(234, 29%, 66%) ;
 	height: 430px;
 	background-color: white;
 	border-radius: 10px;
-	width:20%;
+	max-width: 100%;
 	
 	
 	display: flex ;
