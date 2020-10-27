@@ -61,7 +61,10 @@ h1{
 	align-items: center;
 	flex-direction: column;
 }
-@media (max-width: 400px) {
+@media (max-width: 600px) {
+	.card{
+		margin-bottom: 15px !important;
+	}
 	
 	.card-container {
 	  
@@ -183,8 +186,10 @@ color: hsl(234, 29%, 66%) ;
 	
 	margin: 0;
 	height: 430px;
+	max-height: 100%;
 	background-color: white;
 	border-radius: 10px;
+	width:15rem;
 	max-width: 100%;
 	
 	
